@@ -1,4 +1,5 @@
 #!/bin/sh
+echo "sh2"
 ssh devp@prod.example.com << EOF 
 cd ~/node-ci-cd-test 
 echo "test1"
