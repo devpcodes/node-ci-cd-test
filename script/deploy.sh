@@ -1,4 +1,4 @@
-＃！/ bin / sh的
+#!/bin/sh
 ssh devp@prod.example.com << EOF 
 cd ~/node-ci-cd-test 
 git pull origin master
