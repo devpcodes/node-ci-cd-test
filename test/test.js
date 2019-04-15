@@ -8,7 +8,7 @@ describe('GET /', function() {
         // });
         request(app).get('/').end((err, response)=>{
             if(err) throw done(err);
-            expect(response.text).toEqual('hello world')
+            expect(response.text).toEqual('hello world test')
             done();
         });
         // const result = await request(app).get("/");
